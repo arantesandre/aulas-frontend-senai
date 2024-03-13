@@ -1,0 +1,44 @@
+#root {
+
+  display: grid;
+
+  grid-template-areas:
+
+  /*definindo 2 colunas e 3 linhas*/
+    'cabecalho cabecalho'
+    'ladoEsquerdo principal'
+    'rodape rodape';
+
+    grid-template-rows: 64px 1fr 88px; /*linhas*/
+    grid-template-columns: 288px 1fr; /*colunas. obs px fica fixo*/
+
+}
+
+header {
+
+  background-color: aqua;
+  grid-area: cabecalho;
+  /*colocar nome*/
+
+}
+
+aside {
+
+  background-color: bisque;
+  grid-area: ladoEsquerdo;
+
+}
+
+main {
+
+  background-color: lightgrey;
+  grid-area: principal;
+
+}
+
+footer {
+
+  background-color: blueviolet;
+  grid-area: rodape;
+
+}
