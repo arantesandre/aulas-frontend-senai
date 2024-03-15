@@ -1,6 +1,6 @@
 main {
 
-    background-color: lightgrey;
+    background-color: var(--cor-fundo-padrao);
     grid-area: principal;
 
 }
