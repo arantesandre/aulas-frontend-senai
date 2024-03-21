@@ -7,7 +7,9 @@ const Principal = () => {
 
         <main>
 
-            <BotaoCustomizado />
+            <BotaoCustomizado tipo="primario">Salvar</BotaoCustomizado>
+            <BotaoCustomizado tipo="secundario">Git</BotaoCustomizado>
+            <BotaoCustomizado>Cancelar</BotaoCustomizado>
 
         </main>
 

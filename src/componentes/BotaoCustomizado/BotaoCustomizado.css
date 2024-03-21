@@ -1,0 +1,38 @@
+.botao-customizado {
+
+    padding: 16px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 8px;
+
+}
+
+.botao-customizado:hover {
+
+    opacity: 0.6;
+    /*60% da cor do botao*/
+
+}
+
+.botao-customizado:active {
+
+    opacity: 1;
+    transform: scale(0.9);
+
+}
+
+.botao-customizado-primario {
+
+    background-color: var(--cor-primaria);
+    /*consultar variaveis em index.css*/
+    color: var(--cor-texto-claro);
+
+}
+
+.botao-customizado-secundario{
+
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto-claro);
+
+}
