@@ -4,13 +4,14 @@
 
   grid-template-areas:
 
-  /*definindo 2 colunas e 3 linhas*/
+    /*definindo 2 colunas e 3 linhas*/
     'cabecalho cabecalho'
     'ladoEsquerdo principal'
     'rodape rodape';
 
-    grid-template-rows: 64px 1fr 88px; /*linhas*/
-    grid-template-columns: 288px 1fr; /*colunas. obs px fica fixo*/
+  grid-template-rows: 64px 1fr 88px;
+  /*linhas*/
+  grid-template-columns: 288px 1fr;
+  /*colunas. obs px fica fixo*/
 
 }
-
